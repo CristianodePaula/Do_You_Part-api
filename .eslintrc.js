@@ -1,24 +1,21 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
-    node: true,
+    es2021: true
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
+  extends: 'standard-with-typescript',
+  overrides: [
   ],
-  overrides: [],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: [
+      './tsconfig.json'
+    ]
   },
-  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': '2',
-    indent: ['error', 4],
-    quotes: ['error', 'double'],
-  },
-};
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off'
+
+  }
+}
