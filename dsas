@@ -1,0 +1,53 @@
+[33mcommit 74f56d0332b7f771c04b74fcd26c882a161ba3e1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Sat May 13 08:53:18 2023 -0300
+
+    Config Formatter
+
+[33mcommit 5d1e054dc288d913ea5dcaab250bf1d0917e9b5b[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Sat May 13 07:25:07 2023 -0300
+
+    Ts-Node-Dev
+
+[33mcommit aea61f206f9464785c9b29e2fa0a2b36021cc81d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 22:42:37 2023 -0300
+
+    Helmet, Morgam and Express-Rate-Limit
+
+[33mcommit f51686de14ddaacdff087074c4f018072639218c[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 22:31:39 2023 -0300
+
+    Start Express Server
+
+[33mcommit 8df5e3c7ce2a88b478f374734f86163bc7a0d29b[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 22:19:29 2023 -0300
+
+    Config Prettier + Enslint
+
+[33mcommit 2ba333d66d523145d96218109d506f4993f4f744[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 21:59:07 2023 -0300
+
+    Eslint
+
+[33mcommit 99749b3206f9a572cf093d30776cdd13d7928283[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 20:50:15 2023 -0300
+
+    Prettier
+
+[33mcommit 7778f88528c9bf8f80b3456a5d166176e391378b[m
+Author: ChrisDiPaulla <christianodipaulla@gmail.com>
+Date:   Fri May 12 19:50:46 2023 -0300
+
+    Init Project
+
+[33mcommit 88d7ddd07d5e5ef549e916a7070a46b69590bdcb[m
+Author: Cristiano de Paula Moreira <91747232+CristianodePaula@users.noreply.github.com>
+Date:   Fri May 12 18:51:41 2023 -0300
+
+    Initial commit

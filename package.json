@@ -3,13 +3,25 @@
   "version": "1.0.0",
   "description": "Do You Part Social Network API",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged":{
+    "src/**/*.{ts}": [
+      "prettier"
+    ],
+    "src/**/*.ts": "eslint" 
+  }, 
   "scripts": {
     "dev": "tsnd --exit-child --respawn --transpile-only --ignore-watch node_modules src/index.ts",
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
     "format": "prettier --write src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/**/*.ts --fix"
+    "lint": "eslint src/**/*.ts --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -39,6 +51,8 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
