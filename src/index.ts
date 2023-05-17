@@ -1,11 +1,14 @@
-import express, { type Application, type Request, type Response } from 'express'
+import express, {
+  type Application,
+  type Request,
+  type Response
+} from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
-import config from './config'
 
-const PORT = config.port || 5172
+const PORT = 5172
 
 const app: Application = express()
 
