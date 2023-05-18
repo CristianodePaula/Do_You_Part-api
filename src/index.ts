@@ -8,7 +8,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
 
-const PORT = 5172
+const PORT = 5000
 
 const app: Application = express()
 
